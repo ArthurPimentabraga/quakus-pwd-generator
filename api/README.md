@@ -45,10 +45,8 @@ You can then execute your native executable with: `./target/api-pwd-generator-1.
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.
 
-## Provided examples
+## Technologies used 
 
-### RESTEasy JAX-RS example
-
-REST is easy peasy with this Hello World RESTEasy resource.
-
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+### Libs
+- Lombok
+- Gson
