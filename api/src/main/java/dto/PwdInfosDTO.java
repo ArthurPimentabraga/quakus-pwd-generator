@@ -11,4 +11,11 @@ public class PwdInfosDTO {
     private boolean numbers;
     private boolean symbols;
 
+    public PwdInfosDTO(int numberOfCharacters, boolean uppercase, boolean lowercase, boolean numbers, boolean symbols) {
+        this.numberOfCharacters = numberOfCharacters;
+        this.uppercase = uppercase;
+        this.lowercase = lowercase;
+        this.numbers = numbers;
+        this.symbols = symbols;
+    }
 }

@@ -64,6 +64,11 @@
       <version>1.18.16</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-web-common</artifactId>
+      <version>3.9.6</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
